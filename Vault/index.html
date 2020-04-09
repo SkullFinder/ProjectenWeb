@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link rel="icon" type="image/png" href=" img/vault_icon.ico" sizes="16x16" />
+
+</head>
+    <body>
+
+        <div class="mainContainer">
+            <!--the blinkers-->
+            <div id="rb" class="redBar"></div>
+            <div id="yb" class="yellowBar"></div>
+            <div id="gb" class="greenBar"></div>
+
+            <!--Display the counters-->
+            <div id="cg" class="counterGood">Good:</div>
+            <div id="cs" class="counterSpecial">Special:</div>
+            <div id="cw" class="counterWrong">Wrong:</div>
+
+            <!--the display input code and tekst-->
+            <div class="codeContainer">
+                <div id="display"></div>
+                <div id="tekst"></div>
+            </div>
+            <!--all variable soundtracks-->
+            <audio src="sound/Epic_Win.mp3" id="audioWin"></audio>
+            <audio src="sound/Game_Over.mp3" id="audioLose"></audio>
+            <audio src="sound/E1M1.mp3" id="audioDevil"></audio>
+            <audio src="sound/JamesBond.mp3" id="audioJamesBond"></audio>
+            <audio src="sound/Idiot.mp3" id="audioIdiot"></audio>
+            <audio src="sound/Empty.mp3" id="audioEmpty"></audio>
+            <audio src="sound/Angel.mp3" id="audioAngel"></audio>
+            <audio src="sound/Snoop.mp3" id="audioSnoop"></audio>
+
+            <!--all buttons-->
+            <button class="button b1" value="1" onclick="getNumber(this)">1</button>
+            <button class="button b2" value="2" onclick="getNumber(this)">2</button>
+            <button class="button b3" value="3" onclick="getNumber(this)">3</button>
+            <button class="button b4" value="4" onclick="getNumber(this)">4</button>
+            <button class="button b5" value="5" onclick="getNumber(this)">5</button>
+            <button class="button b6" value="6" onclick="getNumber(this)">6</button>
+            <button class="button b7" value="7" onclick="getNumber(this)">7</button>
+            <button class="button b8" value="8" onclick="getNumber(this)">8</button>
+            <button class="button b9" value="9" onclick="getNumber(this)">9</button>
+            <button class="button b0" value="0" onclick="getNumber(this)">0</button>
+            
+        </div>
+        <!--connection with mainjs.js-->
+        <script type="text/javascript" src="js/mainjs.js"></script>
+    </body>
+</html>

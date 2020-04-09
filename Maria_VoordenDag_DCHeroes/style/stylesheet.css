@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+    background-size: cover;
+}
+header{
+    background: blue;
+    color: white;
+    font-size: 30pt; 
+    display: flex;
+}
+/*DC logo*/
+#logo{
+    height: 100px;
+    text-align: center;
+}
+/*Tekst Heroes*/
+#logo2{
+    margin:0px;
+    display: flex;
+    align-self: center;
+}
+#logo2 a:hover, #logo2 a:active, #logo2 a{
+    color: white;
+    text-decoration: none;
+}
+/*Left Column*/
+#navigation{
+    width: 22%;
+}
+#navigation h1{
+    font-family: MyWebFonts;
+}
+.NavigationText ul{
+    padding: 0px;
+}
+.NavigationText img{
+    height: 20px;
+    width: 20px;
+}
+.NavigationText ul li{
+    padding: 0px;
+    list-style-type:none;
+}
+.NavigationText ul li a:link{
+   text-decoration: none;
+   font-size: 20pt;
+}
+.NavigationText ul li a:visited{
+    font-size: 20pt;
+    color: black;
+}
+.NavigationText ul li a:hover{
+    color: blue;
+    font-size: 22pt;
+}
+#flex{
+    display: flex;
+}
+/*Center column*/
+#centerColumn{
+    background-color: gray;
+    width: 30%;
+}
+/*Code about center column with heroes*/
+.heroes{
+  display: flex;
+  overflow: hidden;
+  scroll-behavior: auto;
+  background-image: url("../images/Bg/header_bg_even.jpg");
+  color:white;
+}
+.heroesInfo{
+    display: block;
+}
+.heroesInfo h3{
+    font-family: MyWebFonts;
+}
+.heroes.alt-bc{
+    background-image: url("../images/Bg/header_bg.jpg");
+}
+.heroes img{
+    width: 225px;
+    height: 260px;
+}
+/*Code for "Get more info" Button*/
+.Info-Button{
+    background: blue;
+    border: solid 1px darkblue;
+    border-radius: 5px;
+    height: 45px;
+}
+.Info-Button, .Info-Button:hover, .Info-Button:active{
+    color: white;
+    text-decoration: none;
+}
+/*Right Column*/
+#InfoColumn{
+    width: 48%;
+    background: lightgray;
+}
+.Profile{
+    display: block;
+    text-align: center;
+}
+.Profile img{
+    border-radius: 50%;
+    align-self: center;
+}
+.InfoProfile h3{
+    font-family: MyWebFonts;
+}
+.Powers h3{
+    font-family: MyWebFonts;
+}
+/*Fonts aply*/
+@font-face{
+    font-family: MyWebFonts;
+    src: url(../fonts/anudi-webfont.ttf);
+} 
+.Review{
+    border: solid 2px blue;
+}

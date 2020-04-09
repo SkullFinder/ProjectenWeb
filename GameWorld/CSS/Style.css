@@ -1,0 +1,217 @@
+body{
+    background-color: lightyellow;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home{ 
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.banner{
+    float: left;
+   
+}
+
+.tekst-banner {
+    position: absolute;
+    top: 100px;
+    left: 280px;
+}
+
+.button1 {
+    width: 222px;
+    padding: 20px;
+    background-color: aqua;
+    border: 1px solid darkblue;
+    float: left;
+}
+
+.button1 a{
+    text-decoration-line: none;
+}
+
+.button1 a:hover{
+    background-color: blueviolet;
+}
+
+.button2 {
+    width: 222px;
+    padding: 20px;
+    background-color: lightgreen;
+    border: 1px solid darkolivegreen;
+    float: left;
+}
+
+.button2 a{
+    text-decoration-line: none;
+}
+
+.button2 a:hover{
+    background-color: green;
+}
+
+.button3 {
+    width: 222px;
+    padding: 20px;
+    background-color: gray;
+    border: 1px solid black;
+    float: left;
+}
+
+.button3 a{
+    text-decoration-line: none;
+}
+
+.button3 a:hover{
+    background-color: yellow;
+}
+
+#header{
+    height: 60px;
+    background-color: green;
+}
+
+#main-navigation{
+    float: left;
+    height: 100%;
+}
+
+#main-navigation ul{
+    list-style: none;
+    margin: 0px;
+    height: 100%;
+}
+
+#main-navigation li{
+    padding-right: 20px;
+    float: left;
+    height: 100%;
+}
+
+#main-navigation li a{
+    display: block;
+    height: 5px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration-line: none;
+    padding-top: 23px;
+    height: 100%;
+    width: 100%;
+}
+
+#main-navigation li img{
+    height: 45px;
+    width: 45px;
+    margin-top: -15px;
+}
+
+#main-navigation li a:hover{
+    background-color: darkkhaki;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+/*This is about address as a footer on the bottom of the page*/
+footer{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 487px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: lightgray;   
+}
+
+.GameContainer{
+    width: 1000px;
+}
+
+.game{
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-left:10px;
+    width: 300px;
+
+}
+
+div.game{
+    width: 25%;
+}
+
+div.game h3.price{
+    right: 0px;
+    z-index: -1;
+}
+
+.platform{
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.platform h1{
+    margin-top: 0px;
+}
+
+#playstation{
+    background-color: aqua;
+    border: 1px solid darkblue; 
+}
+
+#xbox{
+    background-color: lightgreen;
+    border: 1px solid darkolivegreen;
+}
+
+#pc{
+    background-color: gray;
+    border: 1px solid black; 
+}
+
+
+.game img{
+    width: 100%;
+
+}
+
+.price{
+    position: relative;
+    z-index: 2;
+    left: 0px;
+    top: -330px;
+    padding: 10px;
+    background-color: #45a049;
+    width: 50px;
+}

@@ -1,0 +1,150 @@
+body {
+    background-color:aquamarine;
+}
+
+.mainContainer{
+    border-radius: 25px;
+    width:1002px;
+    height: 950px;
+    border: 2px solid black;
+    position: relative;
+    background-color: cadetblue;
+}
+
+.redBar {
+    border-radius: 25px;
+    width: 332px;
+    height: 100px;
+    border: 2px solid darkred;
+    position: absolute;
+    background-color: darkred;
+}
+
+.greenBar {    
+    border-radius: 25px;
+    width: 332px;
+    height: 100px;
+    border: 2px solid darkgreen;
+    position: absolute;
+    left: 668px;
+    background-color: darkgreen;
+}
+
+.yellowBar {
+    border-radius: 25px;
+    width: 332px;
+    height: 100px;
+    border: 2px solid yellow;
+    position: absolute;
+    left: 334px;
+    background-color: yellow;
+}
+.counterWrong{
+    width: 332px;
+    height: 100px;
+    top: 104px;
+    border: 2px solid darkred;
+    position: absolute;
+    left: -2px;
+}
+
+.counterGood {
+    width: 332px;
+    height: 100px;
+    top: 104px;
+    border: 2px solid darkgreen;
+    position: absolute;
+    left: 668px;
+}
+
+.counterSpecial {
+    width: 330px;
+    height: 100px;
+    top:104px;
+    border: 2px solid yellow;
+    position: absolute;
+    left: 334px;
+}
+
+.codeContainer {
+    border-radius: 25px;
+    width: 600px;
+    height: 240px;
+    border: 2px solid snow;
+    position: absolute;
+    top: 210px;
+    left: 200px;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 50px;
+}
+
+/*the style for the buttons*/
+.button {
+    color: black;
+    width:100px;
+    height:100px;
+    position: absolute;
+}
+
+/*position for the buttons*/
+.b1 {
+    top: 500px;
+    left: 300px;
+}
+
+.b2 {
+    top: 500px;
+    left: 410px;
+}
+
+.b3 {
+    top: 500px;
+    left: 520px;
+}
+
+.b4 {
+    top: 610px;
+    left: 300px;
+}
+
+.b5{
+    top: 610px;
+    left: 410px;
+}
+
+.b6{
+    top: 610px;
+    left: 520px;
+}
+
+.b7{
+    top: 720px;
+    left: 300px;
+}
+
+.b8{
+    top: 720px;
+    left: 410px;
+}
+
+.b9{
+    top: 720px;
+    left: 520px;
+}
+
+.b0{
+    top: 830px;
+    left: 410px;
+}
+
+
+
+/*hide element audio*/
+.audioWin{
+    display: none;
+}
+
+.audioLOse{
+    display: none;
+}

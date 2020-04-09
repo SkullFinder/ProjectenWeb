@@ -1,0 +1,131 @@
+body{
+    background-image: url('../images/background.png');
+    background-size: cover;
+}
+
+#header{
+    height: 70px;
+    background-color: lightblue;
+    margin-left: 0px;
+}
+
+/*This is about LadyGaga in the header*/
+#logo{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 40px;
+    float: left;
+    margin-top: 13px;
+    margin-left: 40px;
+}
+
+/*This is about LadyGaga in the header as a link*/
+#logo a{
+    color: white;
+}
+
+#logo a:link{
+    text-decoration: none;
+}
+
+#logo a:hover{
+    color: purple;
+}
+
+#main-navigation{
+    float: right;
+    margin-right: 40px;
+}
+
+#main-navigation ul{
+    margin: 0px;
+    list-style: none;
+}
+
+#main-navigation li{
+    display: inline;
+
+}
+
+#main-navigation li a{
+    display: inline-block;
+    width: 100px;
+    height: 45px;
+    background-color: darkblue;
+    text-align: center;
+    padding-top: 25px;
+    color: #ffffff;
+}
+
+#main-navigation li a:hover{
+    background-color: blue;
+}
+
+/*This is about the h1 tekst underneath the header*/
+#bottom h1{
+    color: #fff;
+    font-size: 75px;
+    margin-bottom: 0px;
+}
+
+/*This is about the h2 tekst underneath the header*/
+#bottom h2{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+/*This is about the link underneath the header*/
+#bottom a{
+    background-color: darkblue;
+    color: #fff;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#bottom a:link{
+    text-decoration: none;
+}
+
+#bottom a:hover{
+    background-color: blue;
+}
+
+/*This is about address as a footer on the bottom of the page*/
+#footer{
+    position: fixed;
+    bottom: 5px;
+}
+
+/* Main container for the albums and playlist*/
+#multymedia-container{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+/*Albums Container*/
+#album-container{
+    width: 250px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+/*Playlist container*/
+#playlist-container{
+    width: 650px;
+    float: right;
+    border: solid 2px darkblue;
+    margin-top: 15px;
+    margin-right: 580px;
+}
+
+/*Telling if there are floating elements allowed left and/or right*/
+.clearfix{
+    clear: both;
+}
+
+
